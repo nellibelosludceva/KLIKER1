@@ -1,0 +1,38 @@
+﻿<Window x:Class="KLIKER1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KLIKER1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Image HorizontalAlignment="Left" Height="514" VerticalAlignment="Top" Width="806" Source="KARTINKI/romashki-tsvety-belye-romashka-lepestki-tsvetochnyi-fon-fon.jpg" Margin="0,0,-18,-122" MouseDown="Image_MouseDown" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-0.204"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                    <Label x:Name="poi" Content="Points" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" FontSize="20" Foreground="Red"/>
+                    <Label x:Name="cli" Content="Points per click" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" FontSize="20" Foreground="Red"/>
+                    <Button x:Name="b2" Content="Button" HorizontalAlignment="Left" Margin="247,246,0,0" VerticalAlignment="Top" Width="75" Background="White" Click="b2_Click"/>
+                    <Button x:Name="b3" Content="Button" HorizontalAlignment="Left" Margin="463,246,0,0" VerticalAlignment="Top" Width="75" Background="White" Click="b3_Click"/>
+                    <Button x:Name="b1" Content="Button" HorizontalAlignment="Left" Margin="63,241,0,0" VerticalAlignment="Top" Width="75" Background="White" Click="b1_Click"/>
+                    <Button x:Name="exit" Content="EXIT" HorizontalAlignment="Left" Margin="671,39,0,0" VerticalAlignment="Top" Width="75" Background="#FF05A223" Click="exit_Click"/>
+                    <Button x:Name="b4" Content="Button" HorizontalAlignment="Left" Margin="615,251,0,0" VerticalAlignment="Top" Width="75" Background="White" Click="b4_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
