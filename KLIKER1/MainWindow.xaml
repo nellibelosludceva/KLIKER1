@@ -10,7 +10,7 @@
         <TabControl HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0">
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5">
-                    <Image HorizontalAlignment="Left" Height="514" VerticalAlignment="Top" Width="806" Source="KARTINKI/romashki-tsvety-belye-romashka-lepestki-tsvetochnyi-fon-fon.jpg" Margin="0,0,-18,-122" MouseDown="Image_MouseDown" RenderTransformOrigin="0.5,0.5">
+                    <Image x:Name="romashki" HorizontalAlignment="Left" Height="514" VerticalAlignment="Top" Width="806" Source="KARTINKI/romashki-tsvety-belye-romashka-lepestki-tsvetochnyi-fon-fon.jpg" Margin="0,0,-18,-122" MouseDown="Image_MouseDown" RenderTransformOrigin="0.5,0.5">
                         <Image.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
